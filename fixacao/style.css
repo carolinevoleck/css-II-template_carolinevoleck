@@ -25,13 +25,40 @@
     padding: 20px;
     margin: 10px 0;
   }
+
+  .position{
+    
+    text-align: center;
+  
+  }
+
+  aside{
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    position: absolute;
+  }
   
   nav{
     padding: 20px;
     background-color: white;
+    position:fixed
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
   }
+
+ footer:hover{
+  background-color: yellow;
+ }
+
+ button:hover{
+  background-color: green;
+  border-radius: 10px;
+ }
+
+ main :last-child:has(button:active) {
+  background-color: #14dcd2;
+}
